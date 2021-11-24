@@ -1,0 +1,17 @@
+srtep1
+----------
+create on employe master table having 3 fileds
+id
+empname
+empskills
+
+step
+-----
+In the inSertion Form aginist the assignment to field ,
+
+Step 2
+Foe Assignment to and call to field the should be one pop up
+ or dropdown list where the list of all employees (name and skill) will be populated.
+
+Step 3
+User should be able to select as many as he want from the employee list.
