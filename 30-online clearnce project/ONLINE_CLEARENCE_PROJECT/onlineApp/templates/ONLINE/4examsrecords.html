@@ -1,0 +1,56 @@
+{% extends 'ONLINE/base.html' %}
+{% load static %}
+{% load crispy_forms_tags %} 
+{% block content %}
+
+
+<div class="container mt-5">
+  
+    <div class="row">
+    
+        <div class="col-sm-5">
+            <h5 class="alert alert-success">EXAM RECORDS DETAILES USER</h3>
+            <form action="" method="post">
+                {% csrf_token %}
+               {{form|crispy}}
+                <input type="submit" value="SUBMIT" class="btn btn-info">
+                <input type="reset" value="CANCEL" class="btn btn-primary">
+
+            </form>
+        </div>
+
+
+        <div class="col-sm-7">
+            <h5 class="bg-dark text-white">EXAM RESULTES ALL DETAILES DISPLAY</h5>
+              
+              <table class="table">
+                <thead class="thead-light">
+                  <tr>
+                    <th scope="col">SRNO</th>
+                    <th scope="col">NAME</th>
+                    <th scope="col">PASSED</th>
+                    <th scope="col">YEAR</th>
+                    <th scope="col">MESSAGES</th>
+                  </tr>
+                </thead>
+                <tbody>
+                    {% for i in  examdetailes %}
+                      
+                
+                  <tr>
+                      <th>{{i.id}}</th>
+                    <th scope="row">{{i.name}}</th>
+                    <th scope="row">{{i.passed}}</th>
+                    <th scope="row">{{i.year_of_gap}}</th>
+                    <th scope="row">{{i.message}}</th>
+                  
+                    
+                  </tr>
+                  {% endfor %}
+                </tbody>
+              </table>
+        </div>
+    </div>
+</div>
+
+{% endblock content %}

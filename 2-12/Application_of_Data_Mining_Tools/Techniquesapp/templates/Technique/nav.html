@@ -1,0 +1,31 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-dark opacity-75">
+    <a class="navbar-brand text-white" href="/">APPLICATIONOF&nbsp;DATA</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link text-white" href="/">HOME <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="{% url 'businness' %}">BUSINESS&nbsp;UNDERSTANDING&nbsp;</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="{% url 'data' %}">DATA&nbsp;UNDERSTANDING</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="{% url 'preparation' %}">DATA&nbsp;PREPARATION</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link text-white" href="{% url 'datamodeling' %}">MODELINING</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="{% url 'evalution' %}">EVALULATION</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white " href="{% url 'deployment' %}">DEPLOYMENT</a>
+          </li>
+      </ul>
+    </div>
+  </nav>

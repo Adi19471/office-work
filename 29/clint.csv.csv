@@ -1,0 +1,28 @@
+﻿country_or_area,commodity_transaction,year,unit,quanitity,categery
+700001,wind energy,1990,20.6,92.6,wind elcectricity
+700002,wind energy,1991,21.6,93.6,wind elcectricity
+700042,wind energy,1992,22.6,94.6,wind elcectricity
+700043,wind energy,1993,23.6,95.6,wind elcectricity
+700042,wind energy,1994,24.6,87.6,airplane engines
+700006,wind energy,1995,25.6,88.6,airplane engines
+700007,wind energy,1996,26.6,89.6,airplane engines
+700008,wind energy,1997,27.6,90.6,airplane engines
+700009,wind energy,1998,28.6,91.6,airplane engines
+700010,wind energy,1999,29.6,92.6,airplane engines
+700011,wind energy,2000,30.6,115.2,Wind power plants
+700012,wind energy,2001,31.6,116.2,Wind power plants
+700013,wind energy,2002,32.6,117.2,Wind power plants
+700014,wind energy,2003,33.6,118.2,Wind power plants
+515428,wind energy,2004,34.6,119.2,Wind power plants
+500054,wind energy,2005,35.6,120.2,Wind power plants
+500055,wind energy,2006,36.6,55.65,Wind power plants
+500056,wind energy,2007,37.6,56.65,Wind power plants
+500057,electrical energy,2008,38.6,57.65,Wind power plants
+500058,electrical energy,2009,39.6,58.65,Wind power plants
+500059,electrical energy,2010,40.6,59.65,Wind power plants
+500060,electrical energy,2011,41.6,60.65,Wind power plants
+500061,electrical energy,2012,42.6,120.61,Wind power plants
+500062,electrical energy,2013,43.6,121.61,Wind power plants
+500063,electrical energy,2014,44.6,122.61,Wind power plants
+,,,,,
+,,,,,

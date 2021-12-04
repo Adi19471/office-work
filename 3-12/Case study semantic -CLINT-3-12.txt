@@ -1,0 +1,58 @@
+Assessment Task Detail and Instructions:
+Note: The assessment is INDIVIDUAL and you cannot use the same idea as your group work or used in learning material
+ (e.g. Movie dataset)
+
+Objective:
+
+To create a dataset using Semantic Data Technologies (i.e. a data model using an ontology, a dataset using 
+RDF/RDFS) and an application interface (UI) that runs SPARQL queries at the back-end and executes results in 
+human-readable format.
+
+In Week 4, you will have individual meetings with your tutor to discuss your idea for the proposed application 
+to check its feasibility.
+
+Concept / Aim (05%)
+
+You can choose any idea for the application considering if the application area is a suitable one for a 
+semantic-based application? Are the aims both useful and achievable? e.g. an application where users can search 
+or filter some data using search controls (like text fields, checkboxes and radio buttons).
+
+Design (30%)
+
+Use of RDF, RDF schema and Ontology design. You are encouraged to use existing RDF schema and Ontologies but will 
+be assessed on your added value. This may be focused on creating your own, or extending/specialising existing 
+frameworks, or using these in a knowledge-based application.
+
+Implementation (20%)
+
+Implementing a graphical user interface that will utilise the semantic dataset created in the Design phase 
+(as explained above). You can use any programming language to implement the interface e.g. Java, PHP or C#. 
+The interface should be executing at least 2-3 SPARQL queries.
+
+Evaluation and Use (20%)
+
+SPARQL queries to show how your system works. You should consider providing at least five different queries to 
+show the use of the semantic concepts for your chosen application. Please provide queries with the screenshots 
+for the results (either run on Protégé or your SPARQL end-point). These queries may include the queries from 
+the step above (implementation).
+
+Critical reflection (15%)
+
+Critically reflect on your application. It may include a comparison of your application with alternative 
+approaches that use semantic information as well as those that do not. You can consider the intended outcome 
+for your application as well as the actual final result. It requires an extensive literature review.
+
+ 
+
+Guidance Resources:
+Example Assessments
+
+Ideas for the project
+
+Assessment Marking Criteria / Scheme:
+ 
+
+Feedback Arrangements:
+Written academic feedback through Canvas.
+
+Links to important regulations / advice about late submissions etc

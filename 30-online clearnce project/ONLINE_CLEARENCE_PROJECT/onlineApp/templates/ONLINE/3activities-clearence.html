@@ -1,0 +1,61 @@
+{% extends 'ONLINE/base.html' %}
+{% load static %}
+{% load crispy_forms_tags %}
+{% block content %}
+
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-sm-12">
+
+            <table class="table bg-dark table-hover table-striped text-white table-bordered">
+                <h1 class="alert alert-info">ONLINE CLEARENCE ALL DEPARTMENT DETAILES</h1>
+                <thead>
+                    <tr>
+                        <th scope="col">SRNO</th>
+                        <th scope="col">DEPARTMENT</th>
+                        <th scope="col">FEES</th>
+                        <th scope="col">CHARGES</th>
+                        <th scope="col">RETURN&nbsp;GEAR</th>
+                        <th scope="col">DUES&nbsp;STUDENT&nbsp;UNION</th>
+                        <th scope="col">APPROAL</th>
+                        <th scope="col">SECURITY</th>
+                        <th scope="col" class="btn btn-primary">ACTIONS</th>
+
+
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for i in detailes_clearence %}
+
+
+                    <tr>
+                        <td>{{i.id}}</td>
+                        <td>{{i.dues_to_the_department}}</td>
+                        <td>{{i.fees_for_the_hospital_and_bookshop}}</td>
+                        <td>{{i.charges_for_damage}}</td>
+                        <td>{{i.returns_all_athletic_gear}}</td>
+                        <td>{{i.Dues_to_the_student_union}}</td>
+                        <td>{{i.Male_deal_approal}}</td>
+                        <td>{{i.obtaining_secutity_chance}}</td>
+                        <td>
+                            <a href="{% url 'update' i.id %}" class="d-inline  btn-danger btn-sm d-inline">Edit</a>
+                            <form action="{% url 'delete-clearence' i.id %}" method="post" class="d-inline">
+                                {% csrf_token %}
+                                <input type="submit" class="btn btn-warning btn-sm" value="Delete">
+
+                            </form>
+
+                        </td>
+
+
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+
+        </div>
+    </div>
+</div>
+
+{% endblock content %}

@@ -1,0 +1,51 @@
+{% extends "Technique/base.html" %}
+{% load static %}
+{% block content %}
+
+<h1 class="text-white text-center">Understand data needs to support AI and data science solutions</h1>
+<div class="container">
+    <div class="row">
+
+
+        <p class="text-justify">After your business goals are clear, you need to translate them into data analysis goals
+            and activities. Building a successful AI and data science solution is possible only if the data is
+            available, of suitable quality, and at the right level of detail to support the business problem. The data
+            scientist must work with a business analyst to interpret the data's meaning and relevancy to the business
+            objectives.</p>
+
+        <img src="{% static  'images/under.jpg' %}" alt="" width="1000px" height="400px">
+    </div>
+</div>
+<br>
+<div class="container">
+    <h3 class="text-uppercase text-white">Business and Data Understanding in Data Science Lifecycle</h1>
+
+
+        <h5 class="justify text-white">“Give me data and I can do wonders”… A common fallacy we see today among data
+            scientists.
+            Many data scientist today miss an important step of understanding the business and how underneath data was
+            generated from the business process before playing around with data</h5>
+
+        <p class="text-white">While jumping on to data is not bad all time but in most of cases we end up with insights
+            that do not get integrated with real-world instances. There are multiple pitfalls of not having an
+            understanding of business and underneath data, key ones are</p>
+
+        <li class="text-white">Trying to solve business objective other than one that can impact the business
+            significantly</li>
+        <li class="text-white">Business and Data Scientist acting in a complete vacuum resulting in business deployment
+            skew</li>
+        <li class="text-white">Insights that does not generate any significant value even after it gets into production
+        </li>
+
+
+
+</div>
+
+<center>
+<div class="container mt-5">
+    <iframe width="1063" height="382" src="https://www.youtube.com/embed/7dvkez6IDpo" title="YouTube video player"
+        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+</div>
+</center>
+{% endblock content %}

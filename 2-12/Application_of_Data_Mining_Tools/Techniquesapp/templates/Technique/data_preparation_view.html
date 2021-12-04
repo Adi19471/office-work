@@ -1,0 +1,41 @@
+{% extends "Technique/base.html" %}
+{% load static %}
+{% block content %}
+<h1 class="text-center">Data Preparation Steps</h1>
+<div class="container">
+    <h3>The specifics of the data preparation process vary by industry, organization and need, but the framework remains largely the same</h3>
+
+    <img src="{% static  'images/datapre.jpg' %}" alt="" width="1200px">
+</div>
+
+<div class="container mt-5">
+    <iframe width="1200" height="477" src="https://www.youtube.com/embed/36-dfD5u0kg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+
+<div class="container">
+    <div>
+        <h1>Self-Service Data Preparation Tools</h1>
+        <ol class="text-white">
+            <li>Data preparation is a very important process, but it’s also requires an intense investment of resources. Data scientists and data analysts report that 80% of their time is spent doing data prep, rather than analysis</li>
+            <li>Do your data team have time for thorough data preparation? What about organizations that don’t have a team of data scientists or data analysts at all?</li>
+        </ol>
+
+        <ul class="text-white">
+         
+
+
+                <li> To get the best value out of a self-service data preparation tool, look for a platform with:</li>
+
+               <li> Data access and discovery from any datasets — from Excel and CSV files to data warehouses, data lakes, and cloud apps such as Salesforce.com.</li>
+               <li> Cleansing and enrichment functions.</li>
+               <li> Auto-discovery, standardization, profiling, smart suggestions, and data visualization.</li>
+               <li> Export functions to files (Excel, Cloud, Tableau, etc.) together with controlled export to data warehouses and enterprise applications.</li>
+                Shareable data preparations and data sets.
+               <li> Design and productivity features like automatic documentation, versioning, and operationalizing into ETL processes.</li>
+
+         
+        </ul>
+    </div>
+</div>
+{% endblock content %}

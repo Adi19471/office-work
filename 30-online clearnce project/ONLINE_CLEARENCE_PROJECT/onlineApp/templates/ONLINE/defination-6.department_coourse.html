@@ -1,0 +1,51 @@
+{% extends 'ONLINE/base.html' %}
+{% load static %}
+
+{% block content %}
+
+<div class="container">
+    <h2 class="text-center text-bold">DEPARTMENT BRANCHES</h2>
+    <div class="starter-template">
+        <div class="row shadow-md">
+            <div class="col-sm-4 col-md-4 col-lg-4">
+                <section class="hover-div"> <img src="{% static 'images/depart-chem.jpg' %}">
+                    <div class="hover-div_inner">
+                        <h3><a href="#">CHEMISTRY</a></h3>
+                        <p class="text-center">Chemistry is the scientific study of the properties and behavior of
+                            matter. It is a natural science that covers the elements that make up matter to the
+                            compounds composed of atoms, molecules and ions: .</p>
+
+                    </div>
+                </section>
+            </div>
+            <div class="col-sm-4 col-md-4 col-lg-4">
+                <section class="hover-div"> <img src="{% static 'images/depart-math.jpg' %}" alt=">
+                          <div class=" hover-div_inner">
+                    <h3><a href="#">COMMERCE</a></h3>
+                    <p class="text-center">Bachelor of Commerce or BCom is the most popular course for Commerce stream
+                        students, This course is majorly offered as BCom Honours and BCom General. In Commerce stream,
+                        while Accountancy,
+                    </p>
+
+            </div>
+            </section>
+        </div>
+
+
+        <div class="col-sm-4 col-md-4 col-lg-4">
+            <section class="hover-div"> <img src="{% static 'images/depart-lib.jpg' %}" alt="">
+                <div class="hover-div_inner">
+                    <h3><a href="#">LIBRARY</a></h3>
+                    <p class="text-center">The Public Libraries Survey (PLS) examines when, where, and how library
+                        services are changing to meet the needs of the public. These data, supplied annually by public
+                        libraries across the country, provide information that policymakers and practitioners can use to
+                        make informed decisions about the support and strategic management of libraries. </p>
+
+                </div>
+            </section>
+        </div>
+    </div>
+</div>
+</div>
+
+{% endblock content %}

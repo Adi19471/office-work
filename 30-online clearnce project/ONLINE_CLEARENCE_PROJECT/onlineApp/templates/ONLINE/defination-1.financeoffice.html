@@ -1,0 +1,74 @@
+{% extends 'ONLINE/base.html' %}
+{% load static %}
+{% load crispy_forms_tags %}
+{% block content %}
+
+
+         
+        
+ 
+
+
+
+<div class="container">
+  <h2 class="text-danger">Single Window Clearance System</h2>
+  <div class="row">
+    <div class="col-sm-4">
+      <div class="card" style="width: 18rem;">
+        <img class="rounded float-left" src="{% static 'images/office4.jpg' %}" alt="" width="300px" height="350px">
+      </div>
+      <div class="card-body">
+        <div class="why-items-hd">Tourism Attraction</div>
+        <ul class="why-items-cnt">
+          <li>One of the best tourism state of India</li>
+          <li>Great places to visit for pristime natural enviorement</li>
+          <li>Tourist wellness across the world</li>
+        </ul>
+        <p class="card-text"></p>
+           <a href="{% url 'clearence' %}" class="btn btn-success">Check</a>
+      </div>
+    </div>
+
+
+    <div class="col-sm-4">
+      <div class="card" style="width: 18rem;">
+        <img class="rounded float-left" src="{% static 'images/office1.jpg' %}" alt="" width="300px" height="350px">
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">SKILLED MAN POWER</h5>
+        <li>82.80% Literacy rate, is well ahead of the national avaerage at 74%</li>
+        <li>Highest increase in Technical institutaions over last 6 years</li>
+        <li>Total 3532 private educational institutes</li>
+      </ul>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+          content.</p>
+           <a href="{% url 'clearence' %}" class="btn btn-success">Check</a>
+      </div>
+    </div>
+
+
+
+    <div class="col-sm-4">
+      <div class="card" style="width: 18rem;">
+        <img class="rounded float-left" src="{% static 'images/office2.jpg' %}" alt="" width="300px" height="350px">
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">Services</h5>
+        <ul class="why-items-cnt">
+          <li>Available land parcel</li>
+          <li>Available water resource</li>
+          <li>24X7 affordable electricity</li>
+        </ul>
+        <p class="card-text"> "Himachal is one of the most popular and easily accessible hill state of India. People from all parts of the
+          country as well as from different parts of the world visit this beautiful state to enjoy its natural
+          beauty.<br><br>
+
+      .</p>
+           <a href="{% url 'clearence' %}" class="btn btn-success">Check</a>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+{% endblock content %}

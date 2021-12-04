@@ -1,0 +1,40 @@
+{% extends 'ONLINE/base.html' %}
+{% load static %}
+
+{% block content %}
+
+
+
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+<div class="container bg-overlay">
+	<div class="row text-center">
+	
+  
+        <br><br>
+        <!-- <button type="button" class="btn btn-primary btn-lg">Get Started</button> -->
+	</div>
+</div>
+
+<br><br>
+
+<div class="container bg-no-overlay">
+    <div class="row text-center">
+		<h1>Library.</h1>
+        <img class="rounded float-left" src="{% static 'images/library2.jpg' %}" alt="" width="800px" height="450px">im
+        <br><br>
+        <a href="{% url 'Home' %}">
+        <button type="button" class="btn btn-primary btn-lg" >Get Started</button>
+    </a>
+    <p class="text-dark fa-4 text-mute">A library is a collection of materials, books or media that are easily accessible for use and not just for display purposes. It is responsible for housing updated information in order to meet the user's needs on a daily basis. A library provides physical (hard copies documents) or digital access (soft copies) materials, and may be a physical location or a virtual space, or both. A library's collection can include printed materials and other physical resources in many formats such as DVD, CD and Cassette as well as access to information, music or other content held on bibliographic databases.
+        <br>
+        <br>
+        A library, which may vary widely in size, may be organized for use and maintained by a public body such as a government, an institution/ schools, a corporation, or a private individual. In addition to providing materials, libraries also provide the services of librarians who are trained and experts at finding, selecting, circulating and organizing information and at interpreting information needs, navigating and analyzing very large amounts of information with a variety of resources.
+    </p>
+	</div>
+</div>
+
+{% endblock content %}

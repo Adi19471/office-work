@@ -1,0 +1,35 @@
+{% extends "Technique/base.html" %}
+{% load static %}
+{% block content %}
+
+<div class="jumbotron">
+    <h1 class="text-center">Model Deployment</h1>
+
+    <h6 class="text-justify">The concept of deployment in data science refers to the application of a model for prediction using a new data. Building a model is generally not the end of the project. Even if the purpose of the model is to increase knowledge of the data, the knowledge gained will need to be organized and presented in a way that the customer can use it. Depending on the requirements, the deployment phase can be as simple as generating a report or as complex as implementing a repeatable data science process. In many cases, it will be the customer, not the data analyst, who will carry out the deployment steps. For example, a credit card company may want to deploy a trained model or set of models (e.g., neural networks, meta-learner) to quickly identify transactions, which have a high probability of being fraudulent. However, even if the analyst will not carry out the deployment effort it is important for the customer to understand up front what actions will need to be carried out in order to actually make use of the created models. 		
+    </h6>
+    <h1 class="text-center">HOW TO BECOME A DEPLOYMENT ANALYST</h1>
+    <h6 class="text-">An example of using a data mining tool (Orange) to deploy a decision tree model.</h6>
+   
+   <a href="">
+       <ol>
+         
+          <li>  Model deployment methods:		</li>
+          <li>  In general, there is four way of deploying the models in data science.		</li>
+           <li> Data science tools (or cloud)</li>
+           <li> Programming language (Java, C, VB, …)</li>
+           <li> Database and SQL script (TSQL, PL-SQL, …)</li>
+           <li> PMML (Predictive Model Markup Language)</li>
+          
+       </ol>
+   </a>
+    <center> <img src="{% static  'images/deployment_1.jpg' %}" alt="" width="800px"></center>
+    
+
+   <h6 class="text-dark">An example of using a programming language (Visual Basic) to deploy a regression model.</h6>
+   <center> <img src="{% static  'images/deployment_2.png' %}" alt="" width="800px"></center>
+
+   <h6 class="text-dark">Same regression model deployed in the SQL script.</h6>
+   <center> <img src="{% static  'images/deployment_3.png' %}" alt="" width="800px"></center>
+</div>
+
+{% endblock content %}
